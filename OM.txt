@@ -1,0 +1,108 @@
+  module 1 [ovwerview of it indstry]
+
+
+
+Q1  What is software? What is software engineering?
+ans  Software: s/w is the language of computer.
+- is a collection of computer programs and related data that provide the instructions for 
+telling a computer what to do and how to do it.
+- Just like human language.
+- 3 main groups depending on their use and application.
+1) System software / operating system.
+2) Application s/w
+3) Programming language
+
+(2)  Software: a Program or set of Programs containing instructions which provide desired 
+functionality.
+Engineering: Process of designing and building something that ensure particular purpose. 
+Software Engineering:
+―Software engineering is the art of developing quality software on time and within
+budget.‖
+Software Engineering is a systematic approach to the design, development, operation,
+and maintenance of a software system.
+A naive view: Problem Specification Final Program 
+But..
+
+
+
+Q2   Explain types of software
+ans  1) System s/w or OS:
+- provides the basic functions for computer usage and helps to run the computer hardware 
+and system.
+- is the s/w used by the computer to translate inputs from various sources into a language 
+which a machine can understand.
+- Basically OS coordinates the different hardware components of a computer.
+- Ex. Linux, window, macOS, Android, iOS
+2) Application s/w:
+- is the general designation of computer programs for performing user tasks.
+- Types of application s/w
+1) Mobile app:
+- Application that run on mobile
+- Ex. Instagram, facebook, etc
+2) Desktop app:
+- That run stand-alone in a desktop or laptop computer.
+- Ex. Microsoft office suite which includes Word, Excel and PowerPoint.
+- Ex. Outlook for email, and firefox, Google Chrome, Mozilla are the web browser.
+- Anti-virus is an application and so is the media player.
+3) Web app:
+- That run on a web browser
+- ex. google.com, facebook.com, etc
+3) Programming s/w:
+- is the process of designing, writing, testing, debugging, and maintaining the source code 
+of computer programs.
+- This s/w is pawritten in a programming language.
+- The purpose of programming is to create a program that exhibits a certaindesired 
+behavior.
+- Ex. c++, html, java, Simlab, php, Python and Visual basic
+
+
+
+
+
+
+Q3  What is SDLC? Explain each phase of SDLC
+ans  SDLC is a structure imposed on the development of a software product that defines the 
+process for planning, implementation, testing, documentation, deployment, and ongoing 
+maintenance and support. There are a number of different development models.
+   A Software Development Life Cycle is essentially a series of steps, or phases, that 
+provide a model for the development and lifecycle management of an application or piece 
+of software.
+   The methodology within the SDLC process can vary across industries and organizations, 
+but standards such as ISO/IEC 12207 represent processes that establish a lifecycle for 
+software, and provide a mode for the development, acquisition, and configuration of 
+software systems.
+
+SDLC Phases
+Requirements Collection/Gathering       Establish Customer Needs
+Analysis                                Model And Specify the requirements- ―What‖
+Design                                  Model And Specify a Solution – ―Why‖
+Implementation                          Construct a Solution In Software
+Testing                                 Validate the solution against the requirements
+Maintenance                             Repair defects and adapt the solution to the new
+requirements
+
+
+
+Q4  What is DFD? Create a DFD diagram on Flipkart
+ans        A Data Flow Diagram (DFD) is a traditional way to visualize the information flows
+within a system. A neat and clear DFD can depict a good amount of the system requirements
+graphically. It can be manual, automated, or a combination of both.
+It shows how information enters and leaves the system, what changes the information and 
+where information is stored. The purpose of a DFD is to show the scope and boundaries of a 
+system as a whole. It may be used as a communications tool between a systems analyst and any 
+person who plays a part in the system that acts as the starting point for redesigning a system.
+
+
+
+
+
+Q5  What is Use case Diagram? Create a use-case on bill payment on paytm.
+ans A use case diagram is a dynamic or behavior diagram in UML. Use case diagrams model the functionality of a system using actors and use cases.
+ Use cases are a set of actions, services, and functions that the system needs to perform
+
+
+
+
+
+
+
