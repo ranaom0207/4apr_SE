@@ -1,0 +1,19 @@
+CREATE TABLE product
+(
+p_id int PRIMARY KEY AUTO_INCREMENT,
+    p_name varchar(40),
+    P_price int,
+    p_code int
+)
+
+INSERT INTO `product` (`p_id`, `p_name`, `P_price`, `p_code`) VALUES (NULL, 'keybord', '1500', '101'), (NULL, 'mouse', '500', '102'), (NULL, 'moniter', '1100', '103'), (NULL, 'speaker', '1600', '104'), (NULL, 'printer', '2500', '105');
+
+1) 1
+SELECT P_price FROM product WHERE P_price=>250
+
+2)SELECT *FROM product ORDER BY P_price DESC
+
+3)SELECT *FROM product ORDER BY p_name ASC
+
+4)SELECT AVG(P_price) FROM product
+5)SELECT AVG(p_id) FROM product
