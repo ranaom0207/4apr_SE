@@ -1,0 +1,101 @@
+assigmnet
+
+
+
+1)CREATE studnet and exam 
+
+
+CREATE DATABSE student_exam
+
+CREATE TABLE students
+(
+  s_id PRIMARY KEY AUTO INCESMENT,
+  s_name varchar(40),
+ s_batch varchar (40) 
+
+
+)
+
+
+CREATE EXAM
+		CREATE TABLE exam
+(
+ s_code varchar(40),
+  s_mark int(40),
+    p_code varchar(40),
+    s_id_fk int,
+    FOREIGN KEY(s_id_fk) REFERENCES STUDENT(s_id)
+    
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2)employee and incetive
+
+
+
+
+
+
+
+SELECT * FROM  empolyee WHERE empolyee.e_firstname LIKE 't%'
+SELECT * FROM empolyee ORDER by e_id,e_firstname,e_salary,e_joining_date ASC
+SELECT * FROM empolyee WHERE e_firstname LIKE 'j%'
+
+
+
+
+
+3) salperson ND CUSTMOR
+
+
+create table saleperson
+(
+sno int primary key ,
+sname varchar(40),
+city varchar(40),
+comm int
+
+
+
+
+
+)
+
+
+
+create table custmoer
+
+(
+cnm int primary key  ,
+canem varchar(50),
+city varchar((50),
+rating int ,
+sno int
+
+cno_fk int,
+foreign key(cno_fk) reffernces
+salesperson(cno)
+
+
+)
+
+
+
+
+SELECT * FROM salesperson WHERE salesprice <1000
+SELECT * FROM CUSTMOR WHERE city bEETWEEN baslonca AND london
